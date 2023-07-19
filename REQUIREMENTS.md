@@ -2,7 +2,7 @@
 
 # Objectives:
 
-> Your framework should implement:
+Your framework should implement:
 
 - Abstracting the DOM Routing System
 - State Management
@@ -13,10 +13,10 @@
 # Documentation
 - Explanation on the features of your framework
 - Code examples and explanations on how to:
-* create an element
-* create an event
-* nest elements
-* add attributes to an element
+> create an element
+> create an event
+> nest elements
+> add attributes to an element
 - Explanation on why things work the way they work
 - Abstracting the DOM
 
