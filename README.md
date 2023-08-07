@@ -130,6 +130,7 @@ The Mini-framework provides state management capabilities through two functions 
 `saveState()` sets the state of the application to the new state passed as an argument. 
 
 Exmample Usage:
+
 ```javascript
 const initialState = {
   text: "Hello Stranger"
@@ -151,6 +152,8 @@ console.log("Updated State:", loadState()); // { text: "Let's be friends" }
 #### URL Redirection 
 
 The Mini-framework can redirect users to a new URL using `redirect(url)` function, which performs redirection using the browser's history
+
+Exmample Usage:
 
 ```javascript
 function redirect(url) {
