@@ -48,9 +48,9 @@ const container = createStructure({
 ```
 
 In this example, we created a section element with a class of "content-container". Inside this container, there are three child elements: 
-An h2 element containing the heading "Welcome"
-A p element with the text "Explore our site."
-A button element with a class of "CTA-button" and the text "Get Started."
+- An h2 element containing the heading "Welcome"
+- A p element with the text "Explore our site."
+- A button element with a class of "CTA-button" and the text "Get Started."
 
 #### Adding Attributes to an Element & Nesting Elements
 
