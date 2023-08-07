@@ -121,7 +121,7 @@ class TodoApp {
       const text = this.edit.value.trim();
 
       // Get the parent element and remove the input element
-      let parent = getParent(targetElement, 1);
+      let parent = parent(targetElement, 1);
       removeChild(parent, this.edit);
       this.edit = null;
 
@@ -286,7 +286,6 @@ class TodoApp {
 
   renderCount() {
     const items = this.state.todo.length;
-
     if (items === 0) {
       // Hide some elements when there are no todos
       this.clear.setAttribute("hidden", "true");
@@ -301,6 +300,8 @@ class TodoApp {
       footer.style.display = "none";
       return;
     } else {
+    const footer = document.querySelector(".footer");
+    footer.style.display = "block";
       // Show elements when there are todos
       this.filters.removeAttribute("hidden");
       this.count.removeAttribute("hidden");
